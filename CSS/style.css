@@ -1,0 +1,114 @@
+*{
+	font-family: arial;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.parent{
+	width: 100%;
+	padding: 50px 0 20px 0;
+}
+
+.child{
+	width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 8px 1px grey;
+}
+/**************/
+
+#teanB{
+	float: right;
+}
+
+#teanA{
+	float: left;
+}
+
+h2{
+	text-shadow: 1px 1px 3px grey;
+}
+
+.flc{
+	clear: both;
+	
+}
+
+#inputCn{
+	margin: 20px 0 20px 0;
+}
+
+input{
+	margin: 0 10px 0 10px;
+	border: 0;
+	border-bottom: 2px solid grey;
+	outline: none;
+}
+
+button{
+	color: white;
+	background-color: #0004FD;
+	padding: 6px 10px 6px 10px;
+	border: none;
+	border-radius: 4px;
+}
+
+button:hover{
+	color: white;
+	background-color: green;
+}
+
+/********Table Style*********/
+#table-container{
+	margin: 0 0 20px 0;
+}
+
+#battingTable{
+	margin: 20px 0 20px 0;
+}
+table{
+	margin: 0 auto;
+	border-collapse: collapse;
+	transition: all 0.3s ease;
+}
+
+table:hover{
+	transform: scale(1.02);
+}
+
+th{
+	width: 10%;
+	background-color: #D10000; 
+	color: white;
+	padding: 10px;
+}
+
+td{
+	text-align: center;
+	padding: 5px;
+}
+
+tr{
+	background-color: #EBEBEB;
+	border-bottom: 2px solid white;
+}
+
+
+#res{
+	display: none;
+	color: green;
+	font-size: 18px;
+}
+
+footer{
+	text-align: center;
+	position: sticky;
+	bottom: 0;
+	color: grey;
+	display: none;
+	font-size: 16px;
+}
